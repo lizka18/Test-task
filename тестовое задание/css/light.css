@@ -1,0 +1,24 @@
+.header{
+    background-color: #b082ec;  
+}
+
+.box-header{
+    
+    text-shadow: 4px 1px 0 #b082eca4;
+    
+}
+
+.buy-btn{
+    background-color: white;
+    border: 1px solid #b082ec;
+    color: #b082ec;
+}
+
+.buy-btn:hover{
+    background-color:#b082ec ;
+    color: white; 
+}
+
+.buy-btn:active{
+    background-color:#924eea ; 
+}

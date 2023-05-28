@@ -1,0 +1,266 @@
+@import"reset.css";
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;  
+}
+
+.container{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: auto;
+}
+
+
+/*Меню*/
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5; 
+    padding: 15px 0px;  
+    
+}
+
+
+.nav-list{
+    display: flex;
+    column-gap: 30px;
+    font-size: 13pt;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    text-shadow: 2px 2px 5px rgb(252, 243, 243);
+}
+
+.nav-link:active{
+    text-shadow: 2px 2px 5px rgb(252, 243, 243);
+    color:#713eb3;
+}
+
+.theme-change{
+    transition: 1s;
+}
+
+.theme-change:hover{
+    transform: scale(1.1);
+}
+
+
+.theme-change img{
+  width: 30px;
+  cursor: pointer;
+}
+
+
+
+/*Секции*/
+
+.box-header{
+    font-size: 40px;
+    padding: 5px;
+}
+
+.main{
+    margin-top: 70px;
+}
+
+.category{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 30px auto;
+    
+}
+
+/*Карточки*/
+
+.row{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding: 10px 5px;
+}
+
+.row-item{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.200);
+    border-radius: 5px;
+    text-align: center;
+    max-width: 200px;
+    min-height: 300px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.200); 
+}
+
+.img img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.sign{
+    margin: 10px 3px;
+    
+}
+
+.sign h3{
+    font-size: medium; 
+}
+
+.date{
+    font-size: small;
+    margin-top: 2px;
+    font-style: italic;
+}
+
+.row-btn{
+  height: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+
+.buy-btn{
+    background-color: white;
+    border: 1px solid #b082ec;
+    color: #b082ec;
+    padding: 8px 30px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    
+}
+
+.buy-btn:hover{
+    background-color:#b082ec ;
+    color: white; 
+}
+
+.buy-btn:active{
+    background-color:#924eea ; 
+}
+
+/*Форма*/
+.dialog{
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 1em;
+    background: white;
+    color: black;
+    text-align: center;
+    }
+    
+.dialog::backdrop {  
+    backdrop-filter: brightness(40%);
+    }
+.buy-form{
+    position: relative;
+}
+
+.input{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 40px;
+    height: 20px;
+    padding: 5px;
+    margin: 3px;
+}
+
+.com{
+    width: 300px;
+    height: 100px; 
+}
+
+.form-item{
+    margin: 30px;
+}
+
+.close-btn{
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    transition: 1s;
+}
+
+.close-btn:hover{
+    transform: scale(1.1);
+}
+
+.close-btn img{
+    width: 18px;
+}
+
+/*кнопка вверх*/
+.up-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    background-color: #b082ec;
+    border-radius: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.200);
+}
+
+.up-btn img{
+    width: 40px;
+}
+
+.up-btn-display{
+    display: none;
+}
+
+.up-btn:hover{
+    background-color: #8d4fdf;
+}
+
+
+.footer{
+    background-color: #713eb3;
+    padding: 20px;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.footer-list .nav-item{
+    margin: 6px 0;
+    text-align: left;
+}
+
+.footer-list .nav-link:hover{
+    border-bottom: 1px solid white;
+}
+
+.contact a{
+    color: white;
+    display: block;
+    margin-top: 10px;
+}
+

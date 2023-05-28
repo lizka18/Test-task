@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(35, 35, 35);
+    color: white;
+}
+
+
+
+.header{
+    background-color: #595858; 
+}
+
+.box-header{
+    box-shadow: #838383;
+}
+
+.row-item{
+    background-color: rgb(35, 35, 35);
+    border:1px solid #838383;
+    color: white;
+}
+
+.img{
+    border-bottom: 1px solid #838383;
+}
+
+.buy-btn{
+    background-color: rgb(35, 35, 35);
+    border: 1px solid #838383;
+    color: #838383;
+}
+
+.buy-btn:hover{
+    background-color:#838383 ;
+    color: white; 
+}
+
+.buy-btn:active{
+    background-color:#494949 ; 
+}
+
+.dialog{
+   
+   
+    background: rgb(160, 160, 160);
+    color: rgb(255, 255, 255);
+    
+    }
+
+.input{
+    border: 1px solid rgb(91, 91, 91);
+    background-color: #cecece;
+}
+
+.close-btn{
+    background-color: rgb(160, 160, 160);
+}
+
+.up-btn{
+    background-color: #838383;
+    z-index: 5;
+}
+
+.up-btn:hover{
+    background-color: #494949;
+}
+
+.footer{
+    background-color: #494949;
+}

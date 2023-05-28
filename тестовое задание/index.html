@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/light.css" id="theme-link">
+    <title>Тестовое задание</title>
+</head>
+<body>
+   <header class="header">
+        <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html#hoody" class="nav-link">Толстовки</a></li>
+        
+                <li class="nav-item"><a href="index.html#jeans" class="nav-link">Джинсы</a></li>
+                <li class="nav-item"><a href="index.html#shirts" class="nav-link">Футболки</a></li>
+            </ul>
+        </nav>
+        <div class="theme-change"><img src="img/the.png" alt="change_them"></div>
+        </div>
+   </header> 
+   <main class="main">
+    <dialog id="dialog" class="dialog">
+        <button id="cancel" type="reset" class="close-btn"><img src="img/close.png" alt="close"></button>
+        <h2>Заказ</h2>
+            <form method="" class="buy-form" id="buy-form">
+                    <div class="form-item">
+                        <label for="count">Количество товара</label>
+                        <input name = "count" type="number"  class="input" id="count" min="1" value="1">
+                    </div>
+                    <div class="form-item">
+                        <input type="radio" name="color" value="red">
+                        <label for="count">Красный</label>
+
+                        <input type="radio" name="color" value="blue">
+                        <label for="count">Голубой</label>
+
+                        <input type="radio" name="color" value="green">
+                        <label for="count">Зеленый</label>
+
+                        <input type="radio" name="color" value="yellow">
+                        <label for="count">Желтый</label>
+                    </div>
+                    <div class="form-item">
+                        <label for="about">Комментарий</label><br>
+                        <textarea id="about" name="about" maxlength="2000" placeholder="Добавьте комментарий к покупке" class='input com'></textarea>
+                    </div>
+
+                <button type="submit" class="buy-btn" id="form-btn">Купить</button>
+            </form>
+    </dialog>
+    <div class="up-btn up-btn-display" id="up-btn"><img src="img/up_btn.png" alt="up"></div>
+    <section class="category" id="hoody">
+        <h2 class="box-header">Толстовки</h2>
+        <div class="row">
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/tolstovki/t1.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Худи KIZAR</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/tolstovki/t2.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>RAtta Толстовка</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/tolstovki/t3.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Толстовка оверсайз</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/tolstovki/t6.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>С иголочки</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/tolstovki/t7.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>ArtTimes Толстовка</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/tolstovki/t8.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Толстовка с капюшоном</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/tolstovki/t9.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Худи с капюшоном XTZ</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/tolstovki/t10.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Толстовка Ton v Ton</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/tolstovki/t4.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Толстовка Street</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/tolstovki/t5.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Худи Art</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/tolstovki/t11.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Худи с принтом</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/tolstovki/t12.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Толстовка утепленная</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="category" id="jeans">
+        <h2 class="box-header">Джинсы</h2>
+        <div class="row">
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/jeans/j1.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Джинсы скини</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/jeans/j2.jpeg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Рваные джинсы</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/jeans/j3.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Джинсы с рисунком</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/jeans/j4.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>С иголочки Джинсы</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/jeans/j5.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Джинсы пилоты</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/jeans/j6.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Джинсы "Шик"</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/jeans/j7.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Джинсы клеш с разрезом</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/jeans/j8.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Джинсы черные клеш с разрезами</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/jeans/j9.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Джинсы летние голубые клеш</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/jeans/j10.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Джинсы Stella</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <div class="row-btn">
+                        <button type="button" class="buy-btn">Купить</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="category" id="shirts">
+        <h2 class="box-header">Футболки</h2>
+        <div class="row">
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/shirts/f1.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Футболка KIZAR</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/shirts/f2.png" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>RAtta Футболка</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/shirts/f3.jpeg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Футболка оверсайз</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/shirts/f4.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>С иголочки</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/shirts/f5.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>ArtTimes футболка</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/shirts/f6.jpeg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Футболка женская</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/shirts/f7.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Футболка XTZ</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/shirts/f8.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Футболка Ton v Ton</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/shirts/f9.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Футболка Street</h3>
+                    <div class="date"></div>
+                </div>
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/shirts/f12.jpeg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Футболка Art</h3>
+                    <div class="date"></div>
+                </div>
+                
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+                
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/shirts/f13.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Футболка Art</h3>
+                    <div class="date"></div>
+                </div>
+                
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+                
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/shirts/f14.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Футболка Art</h3>
+                    <div class="date"></div>
+                </div>
+                
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+                
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/shirts/f15.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Футболка Art</h3>
+                    <div class="date"></div>
+                </div>
+                
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+                
+            </div>
+            <div class="row-item">
+                <div class="img">
+                    <img src="img/shirts/f11.jpg" alt="apple">
+                </div>
+                <div class="sign">
+                    <h3>Футболка Art</h3>
+                    <div class="date"></div>
+                </div>
+                
+                <div class="row-btn">
+                    <button type="button" class="buy-btn">Купить</button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+   </main>
+   <footer class="footer">
+    <nav class="footer-list">
+        <ul class="">
+            <li class="nav-item"><a href="index.html#hoody" class="nav-link">Толстовки</a></li>
+            <li class="nav-item"><a href="index.html#jeans" class="nav-link">Джинсы</a></li>
+            <li class="nav-item"><a href="index.html#shirts" class="nav-link">Футболки</a></li>
+        </ul>
+    </nav>  
+    <div class="contact">
+        <h3>Контакты:</h3>
+        <a href="tel:+79613177169">+7-961-317-71-69</a>
+        <a href="mailto:elizavetaazaretova@mail.com">elizavetaazaretova@mail.com</a>
+        
+    </div>
+   </footer>
+<script src="js/main.js"></script>
+</body>
+</html>
